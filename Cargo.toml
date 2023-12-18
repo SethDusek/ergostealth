@@ -1,0 +1,12 @@
+[package]
+name = "ergooverflowtest"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ergo-lib = { git = "https://github.com/ergoplatform/sigma-rust.git", branch = "master", package = "ergo-lib" }
+ergo-node-interface = { git = "https://github.com/ergoplatform/ergo-node-interface-rust" }
+serde_json = "1.0.108"
+base16              = "0.2.1"
