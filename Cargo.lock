@@ -530,6 +530,7 @@ version = "0.26.0"
 source = "git+https://github.com/ergoplatform/sigma-rust.git?branch=master#417b928c1c90f3914169e92174d1a1fae11537b8"
 dependencies = [
  "base16",
+ "bitvec",
  "bounded-vec",
  "derive_more",
  "ergo-chain-types",
@@ -612,13 +613,16 @@ dependencies = [
 ]
 
 [[package]]
-name = "ergooverflowtest"
+name = "ergostealth"
 version = "0.1.0"
 dependencies = [
  "base16",
  "ergo-lib",
  "ergo-node-interface",
+ "k256",
+ "serde",
  "serde_json",
+ "sigma-ser",
 ]
 
 [[package]]
